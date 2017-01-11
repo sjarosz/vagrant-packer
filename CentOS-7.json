@@ -12,9 +12,9 @@
         "disk_size": 81920,
         "hard_drive_interface": "sata",
 
-        "iso_url": "http://mirror.linux.lg.ua/centos/7/isos/x86_64/CentOS-7.0-1406-x86_64-DVD.iso",
-        "iso_checksum": "ee505335bcd4943ffc7e6e6e55e5aaa8da09710b6ceecda82a5619342f1d24d9",
-        "iso_checksum_type": "sha256",
+        "iso_url": "http://centos.mirrors.hoobly.com/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso",
+        "iso_checksum": "71a7aa147877b413497cdff5b1e0aa5bc0c9484f",
+        "iso_checksum_type": "sha1",
 
         "boot_command": [
             "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/centos7/anaconda-ks.cfg<enter><wait>"
