@@ -45,7 +45,6 @@
         "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
         "scripts": [
             "scripts/fedora20/vboxguest.sh",
-            "scripts/fedora20/vagrant.sh",
             "scripts/fedora20/compact.sh"
         ]
     }]

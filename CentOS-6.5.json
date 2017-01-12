@@ -45,7 +45,6 @@
         "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
         "scripts": [
             "scripts/centos6/vboxguest.sh",
-            "scripts/centos6/vagrant.sh",
             "scripts/centos6/compact.sh"
         ]
     }]
